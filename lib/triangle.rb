@@ -17,7 +17,9 @@ class Triangle
   end
 
   class TriangleError < StandardError
-    
+    def message 
+      "Invalid entry.  Please, try again."
+    end
   end
   
 end
